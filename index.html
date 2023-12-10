@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="screen" onfocus="this.style.backgroundColor='yellow';" onblur="this.style.backgroundColoe='white';">
+        <div>
+            <button id="1" onclick="display1()">7</button>
+            <button id="2" onclick="display2()">8</button>
+            <button id="3" onclick="display3()">9</button>
+            <button id="4" onclick="display4()">*</button>
+            <button id="a" onclick="displaya()">+</button>
+        </div>
+        <div>
+            <button id="5" onclick="display5()">4</button>
+            <button id="6" onclick="display6()">5</button>
+            <button id="7" onclick="display7()">6</button>
+            <button id="8" onclick="display8()">-</button>
+        </div>
+        <div>
+            <button id="9" onclick="display9()">1</button>
+            <button id="10" onclick="display10()">2</button>
+            <button id="11" onclick="display11()">3</button>
+            <button id="12" onclick="display12()">/</button>
+        </div>
+        <div>
+            <button id="13" onclick="display13()">C</button>
+            <button id="14" onclick="display14()">.</button>
+            <button id="15" onclick="calculate()">=</button>
+            <button id="16" onclick="display16()">0</button>
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
